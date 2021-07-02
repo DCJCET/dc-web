@@ -96,10 +96,12 @@ window.onload=()=>{
 
     const puns = [
 
-        'There is no place like 127.0.0.1',
-        'blah blah blah is not a commit! ',
-        'always commit first ! ',
-        'blah blah '
+        'There is no place like 127.0.0.1 🌐',
+        'blah blah blah is not a commit! 😐',
+        'always commit first ! 😛',
+        'Copy-and-Paste was programmed by programmers for programmers actually 🤗',
+        'It works on my machine 🥴',
+        'It compiles ; ship it 😤'
     
     
     ]
