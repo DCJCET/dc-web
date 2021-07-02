@@ -12,6 +12,8 @@ var loader = gsap.timeline()
 // const yc = 451.58331298828125/2
 // console.log(yc)
 
+var loader = gsap.timeline()
+
 loader.from('.person,.person-2',{
     opacity: 0,
     
@@ -40,9 +42,6 @@ loader.to('.c-class',{
 })
 
 
-
-
-
 loader.from('.d-class',{
 
     rotate:90,
@@ -50,8 +49,6 @@ loader.from('.d-class',{
     opacity:0,
     display:'none',
     duration:1,
-
-
 
 })
 loader.to('.d-class',{
@@ -61,11 +58,7 @@ loader.to('.d-class',{
     opacity:1,
     duration:1,
 
-
 })
-
-
-
 
 
 loader.from('.loader-bar',{
@@ -85,16 +78,38 @@ loader.to('.loader-bar',{
 loader.from('.loader-container',{
 
     display:'flex',
-    opacity:1,
-    
+    opacity:1, 
 
 })
 
 loader.to('.loader-container',{
 
-    display:'none',
-    opacity:'0'
+    // display:'none',
+    // opacity:'0'
 
 
 })
 
+
+
+window.onload=()=>{
+
+    const puns = [
+
+        'There is no place like 127.0.0.1',
+        'blah blah blah is not a commit! ',
+        'always commit first ! ',
+        'blah blah '
+    
+    
+    ]
+    
+    const newPun = Math.floor(Math.random()*puns.length);
+    console.log(puns[newPun])
+    const lp = document.getElementById('puns');
+    lp.textContent = puns[newPun];
+
+
+
+
+}
