@@ -84,8 +84,8 @@ loader.from('.loader-container',{
 
 loader.to('.loader-container',{
 
-    // display:'none',
-    // opacity:'0'
+    display:'none',
+    opacity:'0'
 
 
 })
