@@ -42,24 +42,6 @@ loader.from('.loader-bar',{
 
 
 
-loader.from('.c-class',{
-
-    rotate:-90,
-    transformOrigin:`70% 50%`,
- 
-    display:'none',
-    duration:0.5,
-
-})
-loader.to('.c-class',{
-
-    rotate:0,
-    transformOrigin:`70% 50%`,
-    
-    duration:.5,
-
-})
-
 
 
 
@@ -87,6 +69,25 @@ loader.to('.d-class',{
     rotate:00,
     transformOrigin:`30% 50%`,
     opacity:1,
+    duration:.5,
+
+})
+
+
+loader.from('.c-class',{
+
+    rotate:-90,
+    transformOrigin:`70% 50%`,
+ 
+    display:'none',
+    duration:0.5,
+
+})
+loader.to('.c-class',{
+
+    rotate:0,
+    transformOrigin:`70% 50%`,
+    
     duration:.5,
 
 })
@@ -139,11 +140,47 @@ loader.from('.loader-container',{
 
 loader.to('.loader-container',{
 
-    display:'none',
-    opacity:'0'
+  
+    transform:'scale(0.9)',
+    borderRadius:'20px'
 
 
 })
+loader.to('.loader-container',{
+
+
+    top:'-100%',
+
+
+})
+loader.from('.home-section',{
+
+    top:'100vh',
+    transform:'scale(0.9)',
+    borderRadius:'20px',
+
+
+})
+loader.to('.home-section',{
+
+    top:'0',
+    transform:'scale(0.9)',
+    borderRadius:'20px',
+
+
+})
+
+
+
+loader.to('.home-section',{
+
+
+    transform:'scale(1)',
+    top:'-00%',
+    borderRadius:'0'
+})
+
+
 
 // var logoFloat = gsap.timeline()
 
