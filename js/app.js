@@ -33,44 +33,6 @@ loader.to('.person,.person-2',{
     duration:1,
 })
 
-loader.from('.c-class',{
-
-    rotate:-90,
-    transformOrigin:`70% 50%`,
- 
-    display:'none',
-    duration:1,
-
-})
-loader.to('.c-class',{
-
-    rotate:0,
-    transformOrigin:`70% 50%`,
-    
-    duration:1,
-
-})
-
-
-loader.from('.d-class',{
-
-    rotate:90,
-    transformOrigin:`30% 50%`,
-   
-    display:'none',
-    duration:1,
-
-})
-loader.to('.d-class',{
-
-    rotate:00,
-    transformOrigin:`30% 50%`,
-    opacity:1,
-    duration:1,
-
-})
-
-
 loader.from('.loader-bar',{
     
     width:'0%',
@@ -79,20 +41,94 @@ loader.from('.loader-bar',{
 })
 
 
-loader.to('.loader-bar',{
-    
-    width:'100%',  
+
+loader.from('.c-class',{
+
+    rotate:-90,
+    transformOrigin:`70% 50%`,
+ 
+    display:'none',
+    duration:0.5,
 
 })
+loader.to('.c-class',{
+
+    rotate:0,
+    transformOrigin:`70% 50%`,
+    
+    duration:.5,
+
+})
+
+
+
+
+
+loader.from('.d-class',{
+
+    rotate:90,
+    transformOrigin:`30% 50%`,
+   
+    display:'none',
+    duration:.5,
+
+})
+
+loader.to('.loader-bar',{
+    
+    width:'100%',
+    duration:0.5  
+
+})
+
+
+loader.to('.d-class',{
+
+    rotate:00,
+    transformOrigin:`30% 50%`,
+    opacity:1,
+    duration:.5,
+
+})
+
+
+
+
+
 
 loader.to('.loader-logo',{
 
     top:'1%',
     left:'1%',
     scale:0.9,
+    duration:0.5
     
 
 })
+loader.to('.actual-loader',{
+    
+   opacity:0
+
+})
+loader.from('#puns',{
+
+    opacity:1,
+    duration:0.2
+
+
+
+})
+
+loader.to('#puns',{
+
+    opacity:0,
+    duration:0.1
+
+
+})
+
+
+
 
 loader.from('.loader-container',{
 
@@ -142,15 +178,15 @@ window.onload=()=>{
 
     const puns = [
 
-        'There is no place like 127.0.0.1 🌐',
-        'blah blah blah is not a commit! 😐',
-        'always commit first ! 😛',
-        'Copy-and-Paste was programmed by programmers for programmers actually 🤗',
-        'It works on my machine 🥴',
-        'It compiles ; ship it 😤',
-        'There are only 10 types of people in the world: those that understand binary and those that dont 🧑🏻‍🤝‍🧑🏾',
-        'Java: write once, debug everywhere ☕',
-        'Why do Java  programmers wear glasses? Because they cant C 👀'
+        '"There is no place like 127.0.0.1 🌐"',
+        '"blah blah blah is not a commit! 😐"',
+        '"always commit first ! 😛"',
+        '"Copy-and-Paste was programmed by programmers for programmers actually 🤗"',
+        '"It works on my machine 🥴"',
+        '"It compiles ; ship it 😤"',
+        '"There are only 10 types of people in the world: those that understand binary and those that dont 🧑🏻‍🤝‍🧑🏾"',
+        '"Java: write once, debug everywhere ☕"',
+        '"Why do Java  programmers wear glasses? Because they cant C 👀"'
 
 
     
