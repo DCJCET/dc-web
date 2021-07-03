@@ -14,6 +14,16 @@ var loader = gsap.timeline()
 
 var loader = gsap.timeline()
 
+
+loader.from('.loader-logo',{
+
+    top:'34.5%',
+    left:'47.5%',
+
+})
+
+
+
 loader.from('.person,.person-2',{
     opacity: 0,
     
@@ -27,7 +37,7 @@ loader.from('.c-class',{
 
     rotate:-90,
     transformOrigin:`70% 50%`,
-    opacity:0,
+ 
     display:'none',
     duration:1,
 
@@ -36,7 +46,7 @@ loader.to('.c-class',{
 
     rotate:0,
     transformOrigin:`70% 50%`,
-    opacity:1,
+    
     duration:1,
 
 })
@@ -46,7 +56,7 @@ loader.from('.d-class',{
 
     rotate:90,
     transformOrigin:`30% 50%`,
-    opacity:0,
+   
     display:'none',
     duration:1,
 
@@ -75,6 +85,15 @@ loader.to('.loader-bar',{
 
 })
 
+loader.to('.loader-logo',{
+
+    top:'1%',
+    left:'1%',
+    scale:0.9,
+    
+
+})
+
 loader.from('.loader-container',{
 
     display:'flex',
@@ -90,6 +109,33 @@ loader.to('.loader-container',{
 
 })
 
+// var logoFloat = gsap.timeline()
+
+// var logo = document.getElementById('logo')
+
+// logo.addEventListener('mouseover',()=>{
+
+// logoFloat.from(logo,{
+
+//     y:0
+// })
+// logoFloat.to(logo,{
+
+//     y:-19,
+//     repeat:-1
+// })
+
+// preventDefault(logo)
+   
+
+
+
+    
+
+// }
+// )
+
+
 
 
 window.onload=()=>{
@@ -101,7 +147,12 @@ window.onload=()=>{
         'always commit first ! 😛',
         'Copy-and-Paste was programmed by programmers for programmers actually 🤗',
         'It works on my machine 🥴',
-        'It compiles ; ship it 😤'
+        'It compiles ; ship it 😤',
+        'There are only 10 types of people in the world: those that understand binary and those that dont 🧑🏻‍🤝‍🧑🏾',
+        'Java: write once, debug everywhere ☕',
+        'Why do Java  programmers wear glasses? Because they cant C 👀'
+
+
     
     
     ]
@@ -115,3 +166,69 @@ window.onload=()=>{
 
 
 }
+
+window.addEventListener('popstate', function () {
+
+alert('popstate');
+
+
+loader.from('.person,.person-2',{
+    opacity: 0,
+    
+})
+loader.to('.person,.person-2',{
+    opacity: 1,
+    duration:0.1,
+})
+
+loader.from('.c-class',{
+
+    rotate:-90,
+    transformOrigin:`70% 50%`,
+ 
+    display:'none',
+    duration:.1,
+
+})
+loader.to('.c-class',{
+
+    rotate:0,
+    transformOrigin:`70% 50%`,
+    
+    duration:.1,
+
+})
+
+
+loader.from('.d-class',{
+
+    rotate:90,
+    transformOrigin:`30% 50%`,
+   
+    display:'none',
+    duration:.1,
+
+})
+loader.to('.d-class',{
+
+    rotate:00,
+    transformOrigin:`30% 50%`,
+    opacity:1,
+    duration:.1,
+
+})
+
+
+loader.to('.loader-logo',{
+
+    top:'1%',
+    left:'1%',
+    scale:0.9,
+
+})
+
+	
+    
+});
+
+

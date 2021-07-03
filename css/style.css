@@ -14,6 +14,53 @@ body {
   overflow-x: hidden;
 }
 
+.main-container svg {
+  height: 100px;
+  width: 100px;
+  overflow: visible;
+  z-index: 1099;
+  position: absolute;
+  margin: auto;
+  left: 47.5%;
+  top: 34.5%;
+  cursor: pointer;
+}
+
+.main-container svg:hover {
+  -webkit-animation: float linear 500ms  infinite;
+          animation: float linear 500ms  infinite;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
 .main-container .loader-container {
   height: 100vh;
   width: 100vw;
@@ -49,12 +96,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.main-container .loader-container .loader-elements svg {
-  height: 100px;
-  width: 100px;
-  overflow: visible;
 }
 
 .main-container .loader-container .loader-elements .actual-loader {
