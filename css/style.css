@@ -12,6 +12,19 @@ body {
   min-height: 100vh;
   width: 100vw;
   overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .main-container svg {
@@ -21,9 +34,8 @@ body {
   z-index: 1099;
   position: absolute;
   margin: auto;
-  left: 47.5%;
-  top: 34.5%;
   cursor: pointer;
+  top: 34%;
 }
 
 .main-container svg:hover {

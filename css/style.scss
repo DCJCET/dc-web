@@ -15,6 +15,11 @@ body{
     min-height:100vh;
     width:100vw;
     overflow-x: hidden;
+    display:flex;justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
     
     svg{
 
@@ -24,9 +29,10 @@ body{
         z-index: 1099;
         position: absolute;
         margin:auto;
-        left:47.5%;
-        top:34.5%;
+        // left:47.5%;
+        // top:34.5%;
         cursor: pointer;
+        top:34%;
      
 
         &:hover{

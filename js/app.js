@@ -15,12 +15,12 @@ var loader = gsap.timeline()
 var loader = gsap.timeline()
 
 
-loader.from('.loader-logo',{
+// loader.from('.loader-logo',{
 
-    top:'34.5%',
-    left:'47.5%',
+//     top:'32.5%',
+//     left:'46.5%',
 
-})
+// })
 
 
 
