@@ -168,9 +168,6 @@ loader.to('.home-section',{
     top:'0',
     transform:'scale(0.9)',
     borderRadius:'20px',
-   
-
-
 })
 
 
@@ -181,7 +178,8 @@ loader.to('.home-section',{
     transform:'scale(1)',
     top:'-00%',
     borderRadius:'0',
-    ease:Back.easeOut.config( 3),
+    ease:Back.easeOut.config(3),
+
 })
 
 

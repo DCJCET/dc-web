@@ -7,8 +7,13 @@
 body{
     margin:0;
     padding:0;
+<<<<<<< HEAD
     background:rgb(209, 209, 209);
     overflow-x:hidden;
+=======
+    overflow-x:hidden;
+    background: rgb(202, 202, 202);
+>>>>>>> the-review-branch
 }
 
 
@@ -138,6 +143,21 @@ body{
         
     }
 
+    .home-section{
+
+        height:100vh;
+        width:100vw;
+        background: #fff;
+        transform:scale(0.9);
+        border-radius: 20px;;
+        position: relative;
+        margin:auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
 
 
 }
