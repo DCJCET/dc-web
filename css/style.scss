@@ -21,7 +21,6 @@ body{
     align-items: center;
 
     flex-direction: column;
-
     
     svg{
 
@@ -29,38 +28,21 @@ body{
         width:100px;
         overflow: visible;
         z-index: 1099;
-        position: absolute;
-        margin:auto;
+        
+        margin:10px;;
         // left:47.5%;
         // top:34.5%;
         cursor: pointer;
-        top:34%;
+        transform: scale(0.8);
+      
      
 
-        &:hover{
-
-           animation:  float linear 500ms  infinite;
-          
-        }
-        @keyframes float {
-
-            0%{
-                transform:translateY(20px);
-                
-
-            }50%{
-                transform:translateY(0px);
-
-            }100%{
-
-                transform:translateY(20px);
-
-            }
-            
-        }
+        
 
 
     }
+    
+   
     .loader-container{
 
         height:100vh;
@@ -79,9 +61,12 @@ body{
             display:flex;
             justify-content:center;
             align-items: center;
-            height:auto;
+            min-height:auto;
             width:30vw;
             flex-direction: column;
+           
+            margin-top:50px;
+
 
 
             .actual-loader{
@@ -116,6 +101,7 @@ body{
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 font-style: italic;
             }
+            
 
 
         }

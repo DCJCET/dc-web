@@ -12,6 +12,15 @@ var loader = gsap.timeline()
 // const yc = 451.58331298828125/2
 // console.log(yc)
 
+const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+console.log(vw)
+
+const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+console.log(vh)
+
+
+
+
 var loader = gsap.timeline()
 
 
@@ -21,6 +30,8 @@ var loader = gsap.timeline()
 //     left:'46.5%',
 
 // })
+
+
 
 
 
@@ -39,7 +50,6 @@ loader.from('.loader-bar',{
     duration:1
 
 })
-
 
 
 
@@ -92,17 +102,37 @@ loader.to('.c-class',{
 
 })
 
+// loader.stop();
+
+// loader.from('.loader-logo',{
+
+//     top:vh/3-50
+// })
 
 
+loader.from('.loader-logo',{
 
+    position: 'absolute',
+    top:'34%',
+
+
+})
 
 
 loader.to('.loader-logo',{
 
-    top:'1%',
-    left:'1%',
-    scale:0.9,
-    duration:0.5
+   
+    top:'2%',
+    position: 'absolute',
+   
+    
+
+})
+loader.to('.loader-logo',{
+
+    left:'2%',
+    position: 'absolute',
+    
     
 
 })
