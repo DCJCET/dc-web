@@ -131,7 +131,7 @@ loader.to('.loader-logo',{
 loader.to('.loader-logo',{
 
     left:'2%',
-    position: 'absolute',
+    position: 'fixed',
     
     
 
@@ -181,6 +181,7 @@ loader.to('.loader-container',{
 
 
     top:'-100%',
+    display:'none'
     
 
 
