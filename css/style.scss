@@ -39,27 +39,18 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(173, 173, 173); 
   }
-
-
-
     
     svg{
 
         height:100px;
         width:100px;
         overflow: visible;
-        z-index: 1099;
-        
+        z-index: 1099;        
         margin:10px;;
         // left:47.5%;
         // top:34.5%;
         cursor: pointer;
         transform: scale(0.8);
-      
-     
-
-        
-
 
     }
     

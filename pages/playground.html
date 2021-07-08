@@ -22,12 +22,12 @@
     body{
         margin:0;
         padding:0;
-        /* height:100vh;
+        height:100vh;
         width:100vw;
         display:flex;
         justify-content:center;
         align-items:center;
-        text-align: center; */
+        text-align: center;
 
        
     }
@@ -37,7 +37,7 @@
 </style>
 <body>
     <div class="main-container">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 818.2 690.46" class="loader-logo" id="logo">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 818.2 690.46" class="loader-logo" id="logo">
             <defs>
             <style>
             .cls-1{fill:#d92626;}.cls-2{fill:#f3af0e;}.cls-3{fill:#33cc45;}.cls-4{fill:none;}.cls-5{fill:#197ae5;}.cls-6{fill:#32cd45;}.cls-7{fill:#fc4c02;}
@@ -101,12 +101,46 @@
 
             </div>
 
-        </div>
+        </div> -->
+   
+        <textarea id="ip" type="message" style="font-size: 20px;"></textarea>
+
+        <audio id="type" src="../assets/audio/typeKey2.mp3" style="display:none;" controls></audio>
+        <audio id="ret" src="../assets/audio/returnbell (mp3cut.net).wav" style="display:none;" controls></audio>
+   
     </div>
+
 <!-- external js  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
 
+    const value = document.getElementById('ip')
+    const snd = document.getElementById('type')
+    const snd2 = document.getElementById('ret')
+
+    ip.addEventListener("keyup", function(event) {
+
+        snd.play();
+  if (event.keyCode === 13) {
+
+    snd2.play()
+    event.preventDefault();
+   
+  }
+});
+
+
+    
+
+
+
+
+    
+
+
+
+</script>
 <!-- internal js -->
-<script src="../js/app.js"></script>
+<!-- <script src="../js/app.js"></script> -->
 </body>
 </html>

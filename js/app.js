@@ -63,13 +63,15 @@ loader.from('.d-class',{
    
     display:'none',
     duration:.5,
+    ease:Back.easeOut.config( 3),
 
 })
 
 loader.to('.loader-bar',{
     
     width:'100%',
-    duration:0.5  
+    duration:0.5  ,
+    ease:Back.easeOut.config( 3),
 
 })
 
@@ -80,6 +82,7 @@ loader.to('.d-class',{
     transformOrigin:`30% 50%`,
     opacity:1,
     duration:.5,
+    ease:Back.easeOut.config( 3),
 
 })
 
@@ -91,14 +94,15 @@ loader.from('.c-class',{
  
     display:'none',
     duration:0.5,
+    ease:Back.easeOut.config( 3),
 
 })
 loader.to('.c-class',{
 
     rotate:0,
     transformOrigin:`70% 50%`,
-    
     duration:.5,
+    ease:Back.easeOut.config( 3),
 
 })
 
@@ -114,6 +118,7 @@ loader.from('.loader-logo',{
 
     position: 'absolute',
     top:'34%',
+    ease:Back.easeOut.config( 1),
 
 
 })
@@ -122,16 +127,18 @@ loader.from('.loader-logo',{
 loader.to('.loader-logo',{
 
    
-    top:'2%',
+    top:'5%',
     position: 'absolute',
+  
    
     
 
 })
 loader.to('.loader-logo',{
 
-    left:'2%',
+    left:'5%',
     position: 'fixed',
+
     
     
 
@@ -173,7 +180,7 @@ loader.to('.loader-container',{
   
     transform:'scale(0.9)',
     borderRadius:'20px',
-    ease:Back.easeOut.config( 3),
+    ease:Back.easeOut.config( 0.3),
 
 
 })
@@ -181,7 +188,8 @@ loader.to('.loader-container',{
 
 
     top:'-100%',
-    display:'none'
+    display:'none',
+    ease:Back.easeOut.config( 1),
     
 
 
@@ -191,6 +199,7 @@ loader.from('.home-section',{
     top:'100vh',
     transform:'scale(0.9)',
     borderRadius:'20px',
+    ease:Back.easeOut.config( .3),
 
 
 })
@@ -199,6 +208,7 @@ loader.to('.home-section',{
     top:'0',
     transform:'scale(0.9)',
     borderRadius:'20px',
+    ease:Back.easeOut.config( .3),
 })
 
 
@@ -209,7 +219,7 @@ loader.to('.home-section',{
     transform:'scale(1)',
     top:'-00%',
     borderRadius:'0',
-    ease:Back.easeOut.config(3),
+    ease:Back.easeOut.config(1),
 
 })
 
