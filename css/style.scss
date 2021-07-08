@@ -7,12 +7,13 @@
 body{
     margin:0;
     padding:0;
-    background:rgb(209, 209, 209);
+    background:rgb(0, 0, 0);
     overflow-x:hidden;
     width:100vw;
     overflow-x: hidden;
     display:flex;justify-content: center;
     align-items: center;
+    overflow:hidden;
     
 
     flex-direction: column;
@@ -39,6 +40,104 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(173, 173, 173); 
   }
+
+// colors to be used 
+$primary-color: #179ae5;
+
+
+.primary-btn{
+
+    font-size: 18px;;
+    text-align: center;
+    height:40px;
+    width:150px;
+    background-color:#197ae5;
+    border:none;
+    color:white;
+    border-radius: 5px;;
+    cursor:pointer;
+    position: relative;
+    transition: all 50ms linear;
+    z-index:2;
+    border-bottom: 5px solid #579fec;
+    margin:15px;
+
+    
+    &:active{
+
+        transform:scale(0.9);
+        transition: all 50ms linear;
+        z-index: 1;
+
+    }
+    
+
+
+
+}
+
+
+.secondary-btn{
+
+    font-size: 18px;;
+    text-align: center;
+    height:40px;
+    width:150px;
+    background-color:#2db33c;
+    border:none;
+    color:white;
+    border-radius: 5px;;
+    cursor:pointer;
+    position: relative;
+   
+    z-index:2;
+    border-bottom: 5px solid #7FE08A;
+    margin:15px;
+
+    
+    &:active{
+
+        transform:scale(0.9);
+        transition: all 50ms linear;
+        z-index: 1;
+
+      
+
+    }
+
+
+}
+.teritiary-btn{
+
+    font-size: 18px;;
+    text-align: center;
+    height:40px;
+    width:150px;
+    background-color:#F3AF0E;
+    border:none;
+    color:white;
+    border-radius: 5px;;
+    cursor:pointer;
+    position: relative;
+    transition: all 50ms linear;
+    z-index:2;
+    border-bottom: 5px solid #F7C859;
+    margin:15px;
+
+    
+    &:active{
+
+        transform:scale(0.9);
+        transition: all 50ms linear;
+        z-index: 1;
+        
+
+    }
+
+
+}
+
+
 
 
 
@@ -159,6 +258,125 @@ body{
         align-items: center;
         
         
+    }
+
+
+// contact page styles ! 
+
+.form-container{
+
+        height:100vh;
+        width:90vw;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        
+
+        .funky-form{
+
+            min-height:40%;
+            width:40%;
+            // border:1px solid #fff;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           .form-heading{
+
+            width:70%;
+
+            h1{
+                color:white;
+                text-align: left;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                span{
+
+                    color: #ffffff8c;
+                    font-size: 24px;;
+                    margin:10px;
+                }
+
+            }
+           }
+            #title-content{
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 5px;;
+                margin:10px;
+                height:50px;
+                width:70%;
+                outline:none;
+                border:1px solid #fff;
+                font-size:20px;
+                color:white;
+
+                padding:10px;
+                &:focus{
+ 
+                   border:1px solid  #F3AF0E;
+
+                }
+                &:placeholder-shown{
+                    text-emphasis-style: italic;
+                }
+            }
+            #text-content{
+
+                width:70%;
+                height:70%;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 5px;;
+                margin:10px;
+                outline:none;
+                border:1px solid #fff;
+                font-size:20px;
+                color:white;
+                padding:10px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                &:focus{
+
+                    border: 1px solid #179ae5;
+
+                }
+                
+
+            }
+            
+    
+
+
+        }
+        .message{
+
+            color:rgb(255, 255, 255);
+            font-size: 23px;;
+            font-weight: bolder;
+            background-color: #ce9613;
+            font-size: 21px;;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 5px;
+            height:50px;
+            width:250px;
+            position:absolute;
+            left:70px;
+            
+            text-align: center;
+            display:none;
+            justify-content:center;
+            align-items:center;
+            
+        }
+        .contact-socials{
+
+            height:50%;
+            width:40%;
+            border:1px solid #fff;
+            color:white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+
     }
 
 
