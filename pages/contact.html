@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- external css -->
+    <!-- past only the external css used like cdns and stuff  -->
+
+    <!-- internal css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- fonts -->
+    <!-- paste the font cdns here !  -->
+
+
+
+    <title>Contact</title>
+</head>
+<body>
+    <form >
+        <input  id="title-content" type="text" name="title">
+        <br>
+        <textarea   id="text-content" cols="30" rows="10" name="content"></textarea>
+        <br>
+        <button type="submit" id="submit" >go to the db</button>
+
+    </form>
+    <div class="message">
+
+    </div>
+<!-- external js  -->
+
+<!-- internal js -->
+
+<script src="../js/app.js"></script>
+<script>
+const req = document.getElementById('submit');
+const text = document.getElementById('text-content');
+const title = document.getElementById('title-content');
+const mess = document.querySelector('.message')
+req.addEventListener('click',(event)=>{
+
+    event.preventDefault();
+    // // backend 
+    // fetch('http://localhost:1111/contact') 
+    // .then(response => response.json())
+    // .then(data => console.log('Success :', data))
+    // .catch(error => console.log(error))
+
+    let data = {
+
+        title:title.value,
+        content:text.value,
+    }
+    console.log(data)
+    
+
+    const url = 'http://localhost:1111/contact';
+
+    fetch(url, {
+    method: 'POST', // *GET, POST, PUT, DELETE, etc.
+    // mode: 'cors', // no-cors, *cors, same-origin
+    headers: {
+      'Content-Type': 'application/json'
+    },
+   
+    body:JSON.stringify(data)// body data type must match "Content-Type" header
+  }).then(response => response.json())
+    .then((data) => {
+
+        mess.innerHTML = `<h1>${JSON.stringify(data)}</h1>`;
+
+    })
+    .catch(error => console.log(error))
+  
+
+
+
+    
+
+
+});
+
+
+</script>
+
+</body>
+</html>
