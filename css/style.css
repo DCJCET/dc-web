@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #d1d1d1;
+  background: black;
   overflow-x: hidden;
   width: 100vw;
   overflow-x: hidden;
@@ -42,6 +42,81 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #adadad;
+}
+
+.primary-btn {
+  font-size: 18px;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  background-color: #197ae5;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 50ms linear;
+  transition: all 50ms linear;
+  z-index: 2;
+  border-bottom: 5px solid #579fec;
+}
+
+.primary-btn:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 50ms linear;
+  transition: all 50ms linear;
+  z-index: 1;
+}
+
+.secondary-btn {
+  font-size: 18px;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  background-color: #2db33c;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 50ms linear;
+  transition: all 50ms linear;
+  z-index: 2;
+  border-bottom: 5px solid #7FE08A;
+}
+
+.secondary-btn:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 50ms linear;
+  transition: all 50ms linear;
+  z-index: 1;
+}
+
+.teritiary-btn {
+  font-size: 18px;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  background-color: #F3AF0E;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 50ms linear;
+  transition: all 50ms linear;
+  z-index: 2;
+  border-bottom: 5px solid #F7C859;
+}
+
+.teritiary-btn:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 50ms linear;
+  transition: all 50ms linear;
+  z-index: 1;
 }
 
 svg {
@@ -158,6 +233,20 @@ h1 {
   border-radius: 20px;
   position: relative;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-container {
+  height: 100vh;
+  width: 90vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

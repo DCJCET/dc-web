@@ -7,7 +7,7 @@
 body{
     margin:0;
     padding:0;
-    background:rgb(209, 209, 209);
+    background:rgb(0, 0, 0);
     overflow-x:hidden;
     width:100vw;
     overflow-x: hidden;
@@ -39,6 +39,104 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(173, 173, 173); 
   }
+
+// colors to be used 
+$primary-color: #179ae5;
+
+
+.primary-btn{
+
+    font-size: 18px;;
+    text-align: center;
+    height:40px;
+    width:150px;
+    background-color:#197ae5;
+    border:none;
+    color:white;
+    border-radius: 5px;;
+    cursor:pointer;
+    position: relative;
+    transition: all 50ms linear;
+    z-index:2;
+    border-bottom: 5px solid #579fec;
+
+    
+    &:active{
+
+        transform:scale(0.9);
+        transition: all 50ms linear;
+        z-index: 1;
+       
+
+
+
+
+    }
+    
+
+
+
+}
+
+
+.secondary-btn{
+
+    font-size: 18px;;
+    text-align: center;
+    height:40px;
+    width:150px;
+    background-color:#2db33c;
+    border:none;
+    color:white;
+    border-radius: 5px;;
+    cursor:pointer;
+    position: relative;
+    transition: all 50ms linear;
+    z-index:2;
+    border-bottom: 5px solid #7FE08A;
+
+    
+    &:active{
+
+        transform:scale(0.9);
+        transition: all 50ms linear;
+        z-index: 1;
+      
+
+    }
+
+
+}
+.teritiary-btn{
+
+    font-size: 18px;;
+    text-align: center;
+    height:40px;
+    width:150px;
+    background-color:#F3AF0E;
+    border:none;
+    color:white;
+    border-radius: 5px;;
+    cursor:pointer;
+    position: relative;
+    transition: all 50ms linear;
+    z-index:2;
+    border-bottom: 5px solid #F7C859;
+
+    
+    &:active{
+
+        transform:scale(0.9);
+        transition: all 50ms linear;
+        z-index: 1;
+        
+
+    }
+
+
+}
+
+
 
 
 
@@ -159,6 +257,18 @@ body{
         align-items: center;
         
         
+    }
+
+    .form-container{
+
+        height:100vh;
+        width:90vw;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+
+
     }
 
 

@@ -61,15 +61,10 @@ app.post('/contact', async function(req, res) {
     try {
         saveContent = await newNote.save();
     } catch (error) {
-        
+
         return res.json(error);
-
     }
-
     return res.json({ message: 'content created successfully',savecontent: saveContent });
-
-
-
 
 })
 
