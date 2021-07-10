@@ -7,13 +7,14 @@
 body{
     margin:0;
     padding:0;
+    min-height:100vh;
     background:rgb(0, 0, 0);
-    overflow-x:hidden;
+
     width:100vw;
     overflow-x: hidden;
     display:flex;justify-content: center;
     align-items: center;
-    overflow:hidden;
+ 
     
 
     flex-direction: column;
@@ -290,6 +291,7 @@ $primary-color: #179ae5;
                 color:white;
                 text-align: left;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
                 span{
 
                     color: #ffffff8c;
@@ -333,6 +335,7 @@ $primary-color: #179ae5;
                 color:white;
                 padding:10px;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
                 &:focus{
 
                     border: 1px solid #179ae5;
@@ -377,6 +380,306 @@ $primary-color: #179ae5;
 
 
 
+}
+
+.apply-form-container{
+
+
+    height:100vh;
+    width:90vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+
+    .apply-form{
+
+        min-height:auto;
+        width:40%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        // border:1px solid #fff;
+        margin-top:5vh;
+        border-radius:10px;
+        background-color:rgba(255, 255, 255, 00.05);
+        .ap-heading{
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:white;
+            margin:20px;
+            
+        }
+
+        .ap-input{
+
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 5px;;
+                margin:5px;
+                height:50px;
+                width:70%;
+                outline:none;
+                border:1px solid #fff;
+                font-size:20px;
+                color:white;
+                transform: scale(0.8);
+                padding:10px;
+                &:focus{
+ 
+                   border:1px solid  #F3AF0E;
+
+                }
+                &:placeholder-shown{
+                    text-emphasis-style: italic;
+                }
+
+
+        }
+        .semester{
+
+            height:70px;
+            width:72%;
+            outline:none;
+            border:1px solid #fff;
+            font-size:20px;
+            border-radius: 5px;;
+            margin-top:-10px;
+            background: rgba(255, 255, 255, 0.1);
+            color:white;
+            padding:10px;
+            transform: scale(0.8);
+
+
+           
+        }
+        .ap-option{
+            background: rgb(71, 71, 71);
+            border-radius: 5px;;  
+            height:50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width:80%;
+            outline:none;
+            border:1px solid #fff;
+            font-size:20px;
+            color:white;
+            margin:5px;
+            padding:20px;
+
+            &:focus{
+
+               border:1px solid  #F3AF0E;
+
+            }
+            
+
+
+        }
+        .ap-textarea{
+
+            height:150px;
+            transform: scale(0.8);
+        }
+        .ap-textarea-bio{
+
+            height:120px;
+        }
+        
+        .ap-btn{
+
+            font-size: 18px;;
+            text-align: center;
+            height:40px;
+            width:150px;
+            background-color:#2db33c;
+            border:none;
+            color:white;
+            border-radius: 5px;;
+            cursor:pointer;
+            position: relative;
+            transform:scale(1.2);
+            z-index:2;
+            border-bottom: 5px solid #7FE08A;
+            margin:5px;
+            margin-bottom:20px;
+
+            
+            &:active{
+
+                transform:scale(1);
+                transition: all 50ms linear;
+                z-index: 1;
+
+            
+
+            }
+        }
+
     }
 
 
+}
+
+
+.responses-container{
+
+    height:auto;
+    width:90vw;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+    .title-parent{
+
+        min-width:300px;
+        min-height:150px;
+        transition:all 0.4s ease-in-out;
+        background: #2a2a2a;
+        margin:10px;
+        border-radius: 10px;;
+        padding:10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        .contact-title{
+
+        color:#fff;
+        
+        p{
+            font-size:14px;
+        }
+        
+    }
+
+    }
+
+
+
+}
+
+.team-response-container{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    width:90vw;
+    flex-wrap: wrap;
+
+    .team-member{
+
+
+        min-height:200px;
+        width:300px;
+        // border:1px solid #fff;
+        border-radius: 10px;;
+        background: rgb(24, 24, 24);
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+        position:relative;
+        margin:15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        &::before{
+
+            content: " ";
+            height:50px;
+            width:50px;
+            background: #000;
+            position: absolute;
+            top: 0;
+            left:0;
+            border-bottom-right-radius:10px;
+
+        }
+        &::after{
+
+            content: '';
+            height:50px;
+            width:50px;
+            background: #000;
+            position: absolute;
+            bottom: 0;
+            right:0;
+            border-top-left-radius:10px;
+            
+          
+
+
+        }
+
+        
+        .semnbio{
+
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction: column;
+            width:100%;
+            .member-name{
+
+            
+                font-size:30px;
+                color:white;
+                width:90%;
+                margin-top:20px;
+    
+            }
+    
+            .semester{
+    
+                color:white;
+                font-size:20px;;
+                font-weight: 100;
+                margin-bottom:20px;
+                
+    
+            }
+
+
+
+
+           
+            
+        }
+
+        .bio{
+    
+            color:rgba(255, 255, 255, 0.595);text-align:center;
+            width:90%;
+            font-size:15px;
+            text-align: center;
+            font-style:italic;
+
+
+        }
+        .gh-link{
+
+            color:white;
+            font-size:100%;
+            height:100%;
+            padding-right:40px;
+            padding-left:40px;
+            text-align: center;
+            width:100%;
+
+            i{
+
+                font-size:25px;
+
+            }
+        }
+
+
+
+        
+
+    }
+
+
+
+}
