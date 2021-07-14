@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: black;
+  background: rgba(0, 0, 0, 0.925);
   width: 100vw;
   overflow-x: hidden;
   display: -webkit-box;
@@ -205,8 +205,13 @@ svg {
   font-style: italic;
 }
 
-h1 {
-  text-align: center;
+#welcome {
+  text-align: left;
+  color: #fff;
+  font-size: 80px;
+  position: absolute;
+  left: 80px;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .home-section {
@@ -243,6 +248,11 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#homesec {
+  background-color: #000;
+  position: center;
 }
 
 .form-container {
@@ -648,5 +658,79 @@ h1 {
 
 .team-response-container .team-member .gh-link i {
   font-size: 25px;
+}
+
+.Q1 {
+  position: absolute;
+  top: 130px;
+  left: 100px;
+  border-top: 5px solid transparent;
+  width: 300px;
+  height: 50px;
+  margin: 20px;
+  border-width: 5px;
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.ans1 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 180px;
+  border-top: 100px solid white;
+  width: 600px;
+  height: 20px;
+  margin: 10px;
+  border-width: 5px;
+}
+
+.Q2 {
+  position: absolute;
+  top: 455px;
+  left: 1000px;
+  width: 500px;
+  height: 50px;
+  margin: 20px;
+  border-width: 5px;
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.ans2 {
+  color: white;
+  position: absolute;
+  top: 525px;
+  left: 700px;
+  border-top: 5px solid white;
+  width: 600px;
+  height: 5px;
+  margin: 10px;
+  border-width: 5px;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+}
+
+#primary {
+  position: absolute;
+  top: 220px;
+  left: 190px;
+  color: white;
+  text-align: left;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 25px;
+  width: 810px;
+}
+
+#secondary {
+  position: absolute;
+  top: 540px;
+  left: 500px;
+  color: white;
+  text-align: right;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 25px;
+  width: 810px;
 }
 /*# sourceMappingURL=style.css.map */
