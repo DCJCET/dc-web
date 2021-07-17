@@ -1,80 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- external css -->
     <!-- past only the external css used like cdns and stuff  -->
 
     <!-- internal css -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css" />
 
     <!-- fonts -->
     <!-- paste the font cdns here !  -->
 
-
-
-    <title> Apply for the club </title>
-</head>
-<body>
-
-
+    <title>Apply for the club</title>
+  </head>
+  <body>
     <div class="apply-form-container">
+      <form class="apply-form" name="applyform">
+        <h1 class="ap-heading">
+          Fill in the Details to <br />
+          apply for the Club
+        </h1>
+        <input
+          type="text"
+          class="ap-input ap-name"
+          id="ap-name"
+          placeholder="Name"
+          required
+        />
+        <input
+          type="email"
+          class="ap-input ap-email"
+          id="ap-email"
+          placeholder=" Your Email"
+          required
+        />
+        <input
+          type="phone"
+          class="ap-input ap-phone"
+          id="ap-phone"
+          placeholder=" Phone "
+          required
+        />
+        <input
+          type="text"
+          class="ap-input ap-phone"
+          id="ap-usn"
+          placeholder=" University Seat Number "
+          required
+        />
+        <label for="semester" class="ap-label"> Semester </label>
+        <select class="semester" id="ap-semester" name="">
+          <option class="ap-option" value="2nd semester">2nd semester</option>
+          <option class="ap-option" value="3rd semester">3rd semester</option>
+          <option class="ap-option" value="4th semester">4th semester</option>
+          <option class="ap-option" value="5th semester">5th semester</option>
+          <option class="ap-option" value="6th semester">6th semester</option>
+          <option class="ap-option" value="7th semester">7th semester</option>
+        </select>
+        <input
+          type="text"
+          class="ap-input ap-github"
+          id="ap-git"
+          placeholder=" Github Profile link "
+          required
+        />
+        <!-- <textarea  class="ap-input ap-text-area"  id="text-content" cols="30" rows="10"  autocomplete="off" placeholder=" & why ? 😁" ></textarea> -->
+        <textarea
+          name=""
+          id="ap-bio"
+          cols="30"
+          rows="10"
+          class="ap-input ap-textarea-bio"
+          style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+          placeholder="Single line bio.... ✍🏻 "
+          required
+        ></textarea>
+        <textarea
+          name=""
+          id="ap-textarea"
+          cols="30"
+          rows="10"
+          class="ap-input ap-textarea"
+          style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+          placeholder="Why do you wanna join the club ? Please give a detailed response.... "
+          required
+        ></textarea>
 
-        <form class="apply-form" name="applyform">
-            <h1 class="ap-heading">
-                Fill in the Details to <br> apply for the Club
-            </h1>
-            <input type="text" class="ap-input ap-name" id="ap-name" placeholder="Name" required>
-            <input type="email" class="ap-input ap-email" id="ap-email" placeholder=" Your Email" required>
-            <input type="phone" class="ap-input ap-phone" id="ap-phone" placeholder=" Phone " required>
-            <input type="text" class="ap-input ap-phone" id="ap-usn" placeholder=" University Seat Number " required>
-            <label for="semester" class="ap-label" > Semester </label>
-            <select  class="semester" id="ap-semester" name="">
-                <option class="ap-option" value="2nd semester">2nd semester</option>
-                <option class="ap-option" value="3rd semester">3rd semester</option>
-                <option class="ap-option" value="4th semester">4th semester</option>
-                <option class="ap-option" value="5th semester">5th semester</option>
-                <option class="ap-option" value="6th semester">6th semester</option>
-                <option class="ap-option" value="7th semester">7th semester</option>
-            </select>
-            <input type="text" class="ap-input ap-github" id="ap-git" placeholder=" Github Profile link " required>
-            <!-- <textarea  class="ap-input ap-text-area"  id="text-content" cols="30" rows="10"  autocomplete="off" placeholder=" & why ? 😁" ></textarea> -->
-            <textarea name="" id="ap-bio" cols="30" rows="10" class="ap-input ap-textarea-bio" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" placeholder="Single line bio.... ✍🏻 " required></textarea>
-            <textarea name="" id="ap-textarea" cols="30" rows="10" class="ap-input ap-textarea" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" placeholder="Why do you wanna join the club ? Please give a detailed response.... " required></textarea>
-            
-            <button class="ap-btn" id="ap-btn" type="submit" >
-                Submit 
-            </button>
-
-        </form>
-
+        <button class="ap-btn" id="ap-btn" type="submit">Submit</button>
+      </form>
     </div>
 
-<!-- external js  -->
+    <!-- external js  -->
 
-<!-- internal js -->
-<script src="../js/apply.be.js"></script>
-<script src="../js/app.js"></script>
+    <!-- internal js -->
+    <script src="../js/apply.be.js"></script>
+    <script src="../js/app.js"></script>
 
-
-
-<script>
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
-
-</body>
+    <script></script>
+  </body>
 </html>
