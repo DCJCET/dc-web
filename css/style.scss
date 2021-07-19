@@ -235,8 +235,9 @@ $primary-color: #179ae5;
         color:#fff;
         font-size :40px;
         display:flex;
+        // position: absolute;top: 200px;left:10px;
         font-family: 'IBM Plex Mono', monospace;
-        height:100%;
+        height:500px;
         width:100%;
         justify-content: center;
     }
@@ -272,12 +273,15 @@ $primary-color: #179ae5;
 
     #homesec{
         background-color: #000;
+        background-image: radial-gradient(ellipse at right center, #197AE5 50%, black );
         position: center;
 
     }
     
 
-    
+    #homeI{
+        position:absolute;top:100px; left:200px;
+    }
 
    
 
@@ -774,21 +778,22 @@ $primary-color: #179ae5;
  
  .column-1{
      display:flex;
-     height:33%;
+     height:50%;
  }
  .column-2{
     display:flex; 
-    height:33%;
+    height:25%;
 }
 .column-3{
     display:flex;
-    height:33%;
+    height:25%;
 }
 .col-01{
     width:40%;
 }
 .col-02{
     width:60%;
+     
 }
 
 .col-1{
