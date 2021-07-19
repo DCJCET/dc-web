@@ -12,7 +12,8 @@ body{
 
     width:100vw;
     overflow-x: hidden;
-    display:flex;justify-content: center;
+    // display:flex;
+    justify-content: center;
     align-items: center;
  
     
@@ -230,38 +231,39 @@ $primary-color: #179ae5;
         }
     }
     #welcome{
-        text-align: left;
+        align-items: center;
         color:#fff;
-        font-size :80px;
-        position:absolute; left: 80px;
+        font-size :40px;
+        display:flex;
         font-family: 'IBM Plex Mono', monospace;
-
+        height:100%;
+        width:100%;
+        justify-content: center;
     }
     .home-section{
 
-        height:100vh;
-        width:100vw;
+        height:300vh;
+        width:97vw;
         background: #fff;
         position:relative;
-        display:grid;
         place-items: center;
         transform:scale(0.9);
         margin:auto;
         box-shadow: 0px 0px 100px 5px  rgba(0, 0, 0, 0.158);
-        border-radius:'20px',
-        
+        border-radius:'20px';
+        padding:20px;
+
     }
 
     .home-section{
 
-        height:100vh;
-        width:100vw;
+        height:300vh;
+        width:97vw;
         background: #fff;
         transform:scale(0.9);
         border-radius: 20px;;
         position: relative;
         margin:auto;
-        display:flex;
         justify-content: center;
         align-items: center;
         
@@ -697,29 +699,23 @@ $primary-color: #179ae5;
         
 
     }
-
-
-
 }
 
 .Q1{
     
-    position:absolute;top:130px;left:100px;
     border-top:5px solid transparent;
-    width:300px;
+    width:100%;
     height:50px;
     margin:20px;
     border-width: 5px;
     color:white;
     font-family: 'IBM Plex Mono', monospace;
-
     
 }
 .ans1{
     color:white;
-    position:absolute;top:200px;left:180px;
     border-top:100px solid white;
-    width:600px;
+    width:880px;
     height:20px;
     margin:10px;
     border-width: 5px;
@@ -730,58 +726,85 @@ $primary-color: #179ae5;
 
 .Q2{
     
-    position:absolute;top:455px;left:1000px;
-    width:500px;
+   
+    text-align:right;
+    width:1000px;
     height:50px;
-    margin:20px;
     border-width: 5px;
     color:white;
     font-family: 'IBM Plex Mono', monospace;
-    
+    text-align:right;
 }
 
 .ans2{
     color:white;
-    position:absolute;top:525px;left:700px;
+   
     border-top:5px solid white;
-    width:600px;
+    width:980px;
     height:5px;
-    margin:10px;
     border-width: 5px;
-    align-items:right;
 
     
 }
-    
-
-// p{
-//     font-size: 25px;
-//     width: 810px;
-// }
-
 
 #primary{
-    position:absolute;top:220px;left:190px;
     color:white;
     text-align:left;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 25px;
-    width: 810px;
+    width: 100%;
+    padding:10px;
+    justify-content: center;
 
 }
 
 #secondary{
     
-    position:absolute;top:540px;left:500px;
     color:white;
     text-align: right;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 25px;
-    width: 810px;
-   
+    width: 980px;
+    height:100%;
+   }
 
-
+  .container {
+      margin:0 auto;
+  } 
+ 
+ .column-1{
+     display:flex;
+     height:33%;
+ }
+ .column-2{
+    display:flex;
+    height:33%;
+}
+.column-3{
+    display:flex;
+    height:33%;
+}
+.col-01{
+    width:40%;
+}
+.col-02{
+    width:60%;
 }
 
-
+.col-1{
+    width:70%;
+}
+#aboutI1{
+    width:400px;
+    height:400px;
+}
+#aboutI2{
+    width:400px;
+    height:300px;
+}
+.col-2{
+    justify-content:center;
+    align-items:center;
+    width:30%;
+}
 
