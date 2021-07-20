@@ -782,4 +782,169 @@ svg {
           align-items: center;
   width: 30%;
 }
+
+main {
+  padding: 60px 15px;
+  text-align: center;
+  max-width: 100%;
+}
+
+aside {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: black;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all .5s ease;
+  z-index: 2;
+}
+
+.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+nav {
+  text-align: center;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+      flex: 1;
+  line-height: 15vh;
+}
+
+nav ul li a {
+  font-size: 2.5em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: block;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.9);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+nav ul li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(0.5);
+  transform: scaleX(0.5);
+}
+
+nav ul li a:before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  bottom: 0;
+  left: 25%;
+  background: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+button {
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  top: 40px;
+  right: 60px;
+  position: fixed;
+  border: none;
+}
+
+button:hover {
+  border: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.close {
+  position: fixed;
+  top: 40px;
+  right: 60px;
+  color: white;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.close span {
+  border-radius: 4px;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: '';
+  background: transparent;
+}
+
+.close span:before {
+  border-radius: 4px;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: '';
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.close span:after {
+  border-radius: 4px;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: '';
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.outer-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 85px;
+  height: 85px;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */

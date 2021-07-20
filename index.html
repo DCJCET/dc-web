@@ -85,6 +85,33 @@
 
 <div class="container">
      <div class= "home-section" id="homesec" >
+      <main>
+        <button class="toggle-overlay">
+            <img src="./Assets/menuicon.svg" alt="">
+        </button>
+      </main>
+      <aside>
+        <div class="outer-close toggle-overlay">
+          <a class="close"><span></span></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#!">HOME</a></li>
+            <li><a href="#!">SOCIAL</a></li>
+            <li><a href="#!">TESTIMONIALS</a></li>
+            <li><a href="#!">ABOUT</a></li>
+            <li><a href="#!">EVENTS</a></li>
+          </ul>
+        </nav>
+      </aside>
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <script> 
+     $(function(){
+       $('.toggle-overlay').click(function(){
+         $('aside').toggleClass('open');
+       })
+     })
+   </script>
             <div class="column-1">
                 <div class="col-01">
                     <h1 id="welcome" >Welcome <br> to <br> < The Developers' Club/> </h1>

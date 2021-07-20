@@ -114,3 +114,17 @@
         // align-items: right;
     }
  }
+ @media screen and (min-width:600px) {
+	h1 {
+		font-size: 3em;
+	}
+	nav {
+		ul {
+			li {
+				a {
+					font-size: 3em;
+				}
+			}
+		}
+	}
+}
