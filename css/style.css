@@ -237,7 +237,7 @@ svg {
 .home-section {
   height: 300vh;
   width: 97vw;
-  background: #fff;
+  background: #111111;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
   border-radius: 20px;
@@ -249,6 +249,149 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.home-section .arrow-right {
+  border-top-right-radius: 5%;
+  position: fixed;
+  top: 77%;
+  right: 0%;
+  width: 100vh;
+  height: 0px;
+  border-top: 70vh solid transparent;
+  border-bottom: 0px solid;
+  border-right: 205vh solid #92C6FF;
+}
+
+.home-section .arrow-left {
+  border-top-left-radius: 5%;
+  position: absolute;
+  top: 77%;
+  left: 0%;
+  width: 100vh;
+  height: 0px;
+  border-top: 70vh solid transparent;
+  border-bottom: 0px solid;
+  border-left: 205vh solid #000;
+}
+
+.home-section .home-link {
+  font-family: 'IBM Plex Mono', monospace;
+  position: absolute;
+  top: 91%;
+  left: 25%;
+  font-weight: 400;
+}
+
+.home-section .about-link {
+  font-family: 'IBM Plex Mono', monospace;
+  position: absolute;
+  top: 93%;
+  left: 25%;
+  font-weight: 400;
+}
+
+.home-section .joining {
+  border-radius: 8%;
+  border: #000 solid;
+  position: absolute;
+  top: 93%;
+  left: 76%;
+}
+
+.home-section .community {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  font-size: small;
+  color: black;
+  position: absolute;
+  left: 76%;
+  top: 91%;
+}
+
+.home-section button {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bolder;
+  width: 100px;
+  height: 25px;
+  color: white;
+  border-radius: 10%;
+  -webkit-box-shadow: #000;
+          box-shadow: #000;
+  position: absolute;
+  top: 92.8%;
+  left: 89.5%;
+  background-color: #F3AF0E;
+}
+
+.home-section #rob {
+  position: absolute;
+  top: 58%;
+  left: 77%;
+  width: 20%;
+  height: 50%;
+}
+
+.home-section .v-line {
+  border-left: 5px solid white;
+  height: 90px;
+  position: absolute;
+  left: 22%;
+  top: 90%;
+}
+
+@media (max-width: 750px) {
+  .home-section .arrow-right {
+    display: none;
+  }
+  .home-section .arrow-left {
+    display: none;
+  }
+  .home-section .v-line {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    height: 40px;
+  }
+  .home-section #rob {
+    width: 20%;
+    height: 30%;
+    position: relative;
+    top: 50%;
+    left: 30%;
+  }
+  .home-section .home-link {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: smaller;
+    position: absolute;
+    top: 43%;
+    left: 10%;
+  }
+  .home-section .about-link {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: smaller;
+    top: 59%;
+    left: 10%;
+  }
+  .home-section .community {
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+  }
+  .home-section .joining {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+  }
+  .home-section button {
+    position: absolute;
+    top: 55%;
+    width: 50px;
+    height: auto;
+    left: 83%;
+  }
 }
 
 #homesec {
