@@ -1,0 +1,160 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- external css -->
+    <!-- past only the external css used like cdns and stuff  -->
+
+    <!-- internal css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- fonts -->
+    <!-- paste the font cdns here !  -->
+    <style>
+        .container{
+            min-height:100vh;
+            width:100vw;
+            background: #000;
+            color:white;
+        }
+        .section-one, .section-two{
+
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            border:1px solid #fff;
+           
+
+
+        
+        }
+        .section-one h1{
+            width:80%;
+            /* border: 1px solid #fff; */
+        }
+        .home-left{
+            width:50%;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            /* border:1px solid #fff; */
+
+        }
+        .home-left-content{
+            /* border:1px solid #fff; */
+            display:flex;
+            justify-content:center;
+            align-items:flex-start;
+            flex-direction: column;
+            width:80%;
+        }
+
+        .home-right{
+            width:50%;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            overflow:hidden;
+            /* border:1px solid #fff; */
+
+
+
+        }
+        .home-right-image{
+
+            width:120%;
+        }
+        .section-two{
+            flex-direction: column;
+      
+
+        }
+        .about-above{
+
+            width:100vw;
+            height:50vh;
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            flex-wrap: wrap;
+        }
+        .above-left{
+
+            height:100%;
+            width:600px;
+            border: 1px solid #fff;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin:10px;
+        }
+        .above-right{
+
+            height:100%;
+            width:400px;;
+            border: 1px solid #fff;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin:10px;
+
+            
+        }
+
+        .about-below{
+
+            width:100vw;
+            height:50vh;
+            
+        }
+    </style>
+
+    <title>Awesome Project</title>
+  </head>
+  <body>
+  
+    <div class="container">
+      <section class="section-one">
+        <!-- <h1 class="section-1-header">Section 1</h1> -->
+        <div class="home-left">
+           <div class="home-left-content">
+               <h2>welcome to blah blah blah ! </h2>
+               <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium nostrum quam officiis expedita beatae soluta necessitatibus aliquid delectus, perferendis alias, eos tenetur excepturi maiores, possimus earum. Perspiciatis, atque itaque!</h1>
+               <button class="primary-btn">
+                   CTA
+               </button> 
+           </div>
+        </div>
+        <div class="home-right">
+            <img src="./assets/home illustration.svg" class="home-right-image" alt=""> 
+        </div>
+      </section>
+      <section class="section-two">
+      
+        <div class="about-above">
+            <div class="above-left">
+                <h2>About left</h2>
+            </div>
+            <div class="above-right">
+                <h2>About right</h2>
+            </div>
+        </div>
+        <div class="about-below">
+
+        </div>
+      </section>
+    </div>
+
+    <!-- external js  -->
+
+    <!-- internal js -->
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
