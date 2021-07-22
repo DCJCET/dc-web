@@ -81,7 +81,7 @@ loader.to(".c-class", {
 
 // loader.from('.loader-logo',{
 
-//     top:vh/3-50
+//     top: '32.5%',
 // })
 
 loader.from(".loader-logo", {
