@@ -66,39 +66,39 @@
 <path opacity="0.3" d="M981.336 221.93L970.713 230.157L894.029 203.532L904.651 195.305L981.336 221.93Z" fill="#C4C4C4"/>
 </g>
 <g clip-path="url(#clip10)">
+<path opacity="0.5" d="M513.734 355.047L514.725 363.066L505.24 372.521L504.221 364.507L513.734 355.047Z" fill="#C4C4C4"/>
+<path opacity="0.5" d="M504.217 364.507L505.236 372.521L436.56 341.905L435.542 333.892L504.217 364.507Z" fill="#C4C4C4"/>
+<path opacity="0.3" d="M513.733 355.047L504.219 364.507L435.544 333.891L445.057 324.431L513.733 355.047Z" fill="#C4C4C4"/>
+</g>
+<g clip-path="url(#clip11)">
+<path opacity="0.5" d="M490.723 374.581L491.713 382.601L482.228 392.055L481.209 384.042L490.723 374.581Z" fill="#C4C4C4"/>
+<path opacity="0.5" d="M481.205 384.042L482.224 392.056L413.549 361.44L412.53 353.426L481.205 384.042Z" fill="#C4C4C4"/>
+<path opacity="0.3" d="M490.721 374.581L481.208 384.042L412.532 353.426L422.046 343.965L490.721 374.581Z" fill="#C4C4C4"/>
+</g>
+<g clip-path="url(#clip12)">
+<path opacity="0.5" d="M471.316 393.15L472.307 401.17L462.822 410.624L461.803 402.611L471.316 393.15Z" fill="#C4C4C4"/>
+<path opacity="0.5" d="M461.799 402.611L462.818 410.625L394.142 380.009L393.124 371.995L461.799 402.611Z" fill="#C4C4C4"/>
+<path opacity="0.3" d="M471.315 393.15L461.801 402.611L393.126 371.995L402.639 362.534L471.315 393.15Z" fill="#C4C4C4"/>
+</g>
+<g clip-path="url(#clip13)">
+<path opacity="0.5" d="M448.355 411.392L449.346 419.411L439.861 428.866L438.842 420.852L448.355 411.392Z" fill="#C4C4C4"/>
+<path opacity="0.5" d="M438.838 420.852L439.857 428.866L371.181 398.25L370.163 390.237L438.838 420.852Z" fill="#C4C4C4"/>
+<path opacity="0.3" d="M448.354 411.392L438.841 420.852L370.165 390.237L379.678 380.776L448.354 411.392Z" fill="#C4C4C4"/>
+</g>
+<g clip-path="url(#clip14)">
+<path opacity="0.5" d="M425.344 430.926L426.334 438.946L416.849 448.401L415.83 440.387L425.344 430.926Z" fill="#C4C4C4"/>
+<path opacity="0.5" d="M415.827 440.387L416.845 448.401L348.17 417.785L347.151 409.771L415.827 440.387Z" fill="#C4C4C4"/>
+<path opacity="0.3" d="M425.342 430.926L415.829 440.387L347.153 409.771L356.667 400.311L425.342 430.926Z" fill="#C4C4C4"/>
+</g>
+<g clip-path="url(#clip15)">
+<path opacity="0.5" d="M405.938 449.495L406.928 457.515L397.443 466.969L396.424 458.956L405.938 449.495Z" fill="#C4C4C4"/>
+<path opacity="0.5" d="M396.42 458.956L397.439 466.97L328.763 436.354L327.745 428.34L396.42 458.956Z" fill="#C4C4C4"/>
+<path opacity="0.3" d="M405.936 449.495L396.423 458.956L327.747 428.34L337.26 418.879L405.936 449.495Z" fill="#C4C4C4"/>
+</g>
+<g clip-path="url(#clip16)">
 <path opacity="0.5" d="M1006.81 498.635L1005.86 504.642L1015.58 511.832L1016.56 505.829L1006.81 498.635Z" fill="#C4C4C4"/>
 <path opacity="0.5" d="M1016.57 505.829L1015.58 511.832L1085.33 489.548L1086.31 483.545L1016.57 505.829Z" fill="#C4C4C4"/>
 <path opacity="0.3" d="M1006.81 498.634L1016.57 505.829L1086.31 483.545L1076.56 476.351L1006.81 498.634Z" fill="#C4C4C4"/>
-</g>
-<g clip-path="url(#clip11)">
-<path d="M502.715 348.067L504.331 355.832L497.487 365.896L495.848 358.139L502.715 348.067Z" fill="#C4C4C4" fill-opacity="0.5"/>
-<path d="M495.846 358.14L497.485 365.897L438.02 341.79L436.381 334.033L495.846 358.14Z" fill="#C4C4C4" fill-opacity="0.5"/>
-<path opacity="0.3" d="M502.713 348.067L495.847 358.139L436.382 334.033L443.248 323.961L502.713 348.067Z" fill="#C4C4C4"/>
-</g>
-<g clip-path="url(#clip12)">
-<path opacity="0.5" d="M480.762 366.204L482.378 373.969L475.534 384.033L473.895 376.276L480.762 366.204Z" fill="#C4C4C4"/>
-<path opacity="0.5" d="M473.893 376.277L475.532 384.034L416.067 359.927L414.428 352.17L473.893 376.277Z" fill="#C4C4C4"/>
-<path opacity="0.3" d="M480.76 366.204L473.894 376.276L414.429 352.17L421.295 342.098L480.76 366.204Z" fill="#C4C4C4"/>
-</g>
-<g clip-path="url(#clip13)">
-<path opacity="0.5" d="M461.246 386.369L462.862 394.135L456.018 404.199L454.38 396.441L461.246 386.369Z" fill="#C4C4C4"/>
-<path opacity="0.5" d="M454.377 396.442L456.016 404.199L396.551 380.093L394.913 372.335L454.377 396.442Z" fill="#C4C4C4"/>
-<path opacity="0.3" d="M461.245 386.369L454.378 396.442L394.913 372.335L401.78 362.263L461.245 386.369Z" fill="#C4C4C4"/>
-</g>
-<g clip-path="url(#clip14)">
-<path opacity="0.5" d="M440.488 408.934L442.104 416.7L435.26 426.764L433.622 419.007L440.488 408.934Z" fill="#C4C4C4"/>
-<path opacity="0.5" d="M433.62 419.007L435.258 426.764L375.793 402.658L374.155 394.901L433.62 419.007Z" fill="#C4C4C4"/>
-<path opacity="0.3" d="M440.487 408.935L433.62 419.007L374.155 394.9L381.022 384.828L440.487 408.935Z" fill="#C4C4C4"/>
-</g>
-<g clip-path="url(#clip15)">
-<path opacity="0.5" d="M401.906 453.768L403.522 461.533L396.678 471.597L395.04 463.84L401.906 453.768Z" fill="#C4C4C4"/>
-<path opacity="0.5" d="M395.038 463.84L396.676 471.597L337.211 447.491L335.573 439.734L395.038 463.84Z" fill="#C4C4C4"/>
-<path opacity="0.3" d="M401.905 453.768L395.038 463.84L335.573 439.733L342.44 429.661L401.905 453.768Z" fill="#C4C4C4"/>
-</g>
-<g clip-path="url(#clip16)">
-<path opacity="0.5" d="M416.305 429.013L417.921 436.778L411.077 446.842L409.438 439.085L416.305 429.013Z" fill="#C4C4C4"/>
-<path opacity="0.5" d="M409.436 439.085L411.074 446.843L351.61 422.736L349.971 414.979L409.436 439.085Z" fill="#C4C4C4"/>
-<path opacity="0.3" d="M416.303 429.013L409.437 439.085L349.972 414.978L356.838 404.906L416.303 429.013Z" fill="#C4C4C4"/>
 </g>
 <path d="M448.563 509.092L545.52 539.654L545.232 545.771L448.306 516.113L448.563 509.092Z" fill="#C4C4C4" fill-opacity="0.5"/>
 <path d="M449.062 509.075L589.613 475.472L688.837 499.169L545.52 539.654L449.062 509.075Z" fill="#C4C4C4" fill-opacity="0.3"/>
@@ -2234,7 +2234,7 @@
 <defs>
 <filter id="filter0_d" x="10.5039" y="6.62701" width="1286.73" height="609.124" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="2"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
@@ -2272,25 +2272,25 @@
 <rect width="83.2036" height="52.0995" fill="white" transform="matrix(-0.986941 0.161083 0.161083 0.986941 975.113 183.805)"/>
 </clipPath>
 <clipPath id="clip10">
-<rect width="76.0097" height="44.8829" fill="white" transform="translate(1012.2 465.794) rotate(9.31451)"/>
+<rect width="75.3054" height="59.492" fill="white" transform="matrix(-0.976567 0.204656 0.126333 0.993861 508.16 311.207)"/>
 </clipPath>
 <clipPath id="clip11">
-<rect width="62.6118" height="58.4967" rx="14" transform="matrix(-0.939998 0.34118 0.206658 0.978413 493.75 305.631)" fill="white"/>
+<rect width="75.3054" height="59.492" fill="white" transform="matrix(-0.976567 0.204656 0.126333 0.993861 485.148 330.741)"/>
 </clipPath>
 <clipPath id="clip12">
-<rect width="62.6118" height="58.4967" rx="14" transform="matrix(-0.939998 0.34118 0.206658 0.978413 471.797 323.768)" fill="white"/>
+<rect width="75.5301" height="59.4089" fill="white" transform="matrix(-0.973661 0.204047 0.12651 0.995251 465.742 349.31)"/>
 </clipPath>
 <clipPath id="clip13">
-<rect width="62.6118" height="58.4967" rx="14" transform="matrix(-0.939998 0.34118 0.206658 0.978413 452.281 343.933)" fill="white"/>
+<rect width="75.3024" height="59.4922" fill="white" transform="matrix(-0.976606 0.204664 0.126333 0.993857 442.781 367.552)"/>
 </clipPath>
 <clipPath id="clip14">
-<rect width="62.6118" height="58.4967" rx="14" transform="matrix(-0.939998 0.34118 0.206658 0.978413 431.523 366.498)" fill="white"/>
+<rect width="75.3024" height="59.4922" fill="white" transform="matrix(-0.976606 0.204664 0.126333 0.993857 419.77 387.086)"/>
 </clipPath>
 <clipPath id="clip15">
-<rect width="62.6118" height="58.4967" rx="14" transform="matrix(-0.939998 0.34118 0.206658 0.978413 392.941 411.331)" fill="white"/>
+<rect width="75.5125" height="59.4168" fill="white" transform="matrix(-0.973889 0.204095 0.126493 0.995118 400.363 405.655)"/>
 </clipPath>
 <clipPath id="clip16">
-<rect width="62.6118" height="58.4967" rx="14" transform="matrix(-0.939998 0.34118 0.206658 0.978413 407.34 386.576)" fill="white"/>
+<rect width="76.0097" height="44.8829" fill="white" transform="translate(1012.2 465.794) rotate(9.31451)"/>
 </clipPath>
 <clipPath id="clip17">
 <rect width="76.0097" height="44.8829" fill="white" transform="translate(523.82 131.404) rotate(13.0781)"/>
