@@ -50,7 +50,7 @@
     #welcome{
         font-size:50px;
         height:600px;
-        width:80%;
+        width:100%;
        align-items: center;
         }
 }
@@ -64,14 +64,17 @@
 @media screen and (max-width:750px){
 
     .ans1{
-          width:50%;
+          width:60%;
+          left:50px;
           align-items:center;
     }
 }
 @media screen and (max-width:750px){
 
     .ans2{
-          width:80%;
+          width:60%;
+          left:50px;
+         align-items:center;
         
     }
 }
@@ -80,10 +83,12 @@
     .col-1,
     .col-2{
         width:90%;
+
     }
 }
 @media screen and (max-width:750px){
-   #aboutI1{
+   #aboutI1,
+   #aboutI2{
        height:300px;
        width:300px;
    }      
@@ -99,23 +104,18 @@
    }
 }
 @media screen and (max-width:750px){
-    #seondary{
-        text-align: left;
-        font-size: 15px;
-    }
- }
-@media screen and (max-width:750px){
     .Q1
       {
         font-size: 15px;  
+        text-align:center;
     }
  }
+ 
  @media screen and (max-width:750px){
     .Q2
       {
-        font-size: 13px;
+        font-size: 12px;
         text-align:center;  
         width:100%;
-        /* // align-items: right; */
     }
  }

@@ -706,49 +706,38 @@ $primary-color: #179ae5;
 }
 
 .Q1{
-    
-    border-top:5px solid transparent;
-    width:100%;
-    height:50px;
-    margin:20px;
-    border-width: 5px;
+    width:300px;
+    height:40px;
+    margin:10px;
     color:white;
     font-family: 'IBM Plex Mono', monospace;
     
 }
 .ans1{
+    position:absolute;
     color:white;
-    border-top:100px solid white;
-    width:880px;
+     left:30px;
+    border-top:5px solid white;
+    width:600px;
     height:20px;
-    margin:10px;
-    border-width: 5px;
-    
 }
-
-
-
-.Q2{
-    
-   
-    text-align:right;
-    width:1000px;
-    height:50px;
-    border-width: 5px;
+.Q2{ 
+    width:980px;
+    height:40px;
     color:white;
     font-family: 'IBM Plex Mono', monospace;
     text-align:right;
 }
 
 .ans2{
-    color:white;
-   
+    color:white; 
+    position:absolute;
+    left:710px;
     border-top:5px solid white;
-    width:980px;
+    width:730px;
     height:5px;
-    border-width: 5px;
-
-    
+    margin:5px;
+    border-width: 5px;    
 }
 
 #primary{
@@ -763,13 +752,15 @@ $primary-color: #179ae5;
 }
 
 #secondary{
-    
     color:white;
     text-align: right;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 25px;
-    width: 980px;
+    width: 970px;
+    margin:10px;
     height:100%;
+
+
    }
 
   .container {
