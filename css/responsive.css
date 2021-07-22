@@ -1,0 +1,121 @@
+@media screen and (max-width:750px){
+    .column-1{
+        width:100%;
+        height:100%;
+    }
+}
+@media screen and (max-width:750px){
+    .column-3{
+        flex-direction :column;
+        overflow-x :hidden;
+        width:100%;
+        height:100%;
+    }
+}
+@media screen and (max-width:750px){
+    .column-2{
+        flex-direction :column-reverse;
+        overflow-x :hidden;
+        width:100%;
+        height:100%;
+    }
+}
+@media screen and (max-width:750px){
+    .col-02{
+          display:none;
+    }
+}
+@media screen and (max-width:750px){
+    .col-01{
+            width:100%
+    }
+}
+
+@media screen and (max-width:750px){
+    .container{
+         overflow-x: hidden;
+      
+    }
+}
+@media screen and (max-width:750px){
+    .home-section{
+          width:100%;
+          height:100%;
+          align-items: left;
+         overflow-x: hidden;
+
+    }
+}
+@media screen and (max-width:750px){
+    #welcome{
+        font-size:50px;
+        height:600px;
+        width:100%;
+       align-items: center;
+        }
+}
+@media screen and (max-width:750px){
+
+    .col-2{
+        height:100%;
+        width:50%;
+    }
+}
+@media screen and (max-width:750px){
+
+    .ans1{
+          width:60%;
+          left:50px;
+          align-items:center;
+    }
+}
+@media screen and (max-width:750px){
+
+    .ans2{
+          width:60%;
+          left:50px;
+         align-items:center;
+        
+    }
+}
+
+@media screen and (max-width:750px){
+    .col-1,
+    .col-2{
+        width:90%;
+
+    }
+}
+@media screen and (max-width:750px){
+   #aboutI1,
+   #aboutI2{
+       height:300px;
+       width:300px;
+   }      
+    
+}
+
+@media screen and (max-width:750px){
+   #primary,
+   #secondary{
+       font-size:20px;
+       width:100%;
+       text-align: left;
+   }
+}
+@media screen and (max-width:750px){
+    .Q1
+      {
+        font-size: 15px;  
+        text-align:center;
+    }
+ }
+ 
+ @media screen and (max-width:750px){
+    .Q2
+      {
+        font-size: 12px;
+        text-align:center;  
+        width:100%;
+    }
+ }
