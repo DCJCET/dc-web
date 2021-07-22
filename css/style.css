@@ -280,7 +280,7 @@ svg {
   position: absolute;
   top: 91%;
   left: 25%;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .home-section .about-link {
@@ -288,7 +288,7 @@ svg {
   position: absolute;
   top: 93%;
   left: 25%;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .home-section .joining {
