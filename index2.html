@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/responsive.css">
 
     <!-- external css -->
     <!-- past only the external css used like cdns and stuff  -->
@@ -26,7 +27,7 @@
             display:flex;
             justify-content:center;
             align-items:center;
-            border:1px solid #fff;
+            /*border:1px solid #fff;*/
            
 
 
@@ -34,7 +35,7 @@
         }
         .section-one h1{
             width:80%;
-            /* border: 1px solid #fff; */
+            /*border: 1px solid #fff;*/
         }
         .home-left{
             width:50%;
@@ -55,12 +56,14 @@
         }
 
         .home-right{
-            width:50%;
+            width:60%;
             height:100vh;
             display:flex;
             justify-content:center;
             align-items:center;
             overflow:hidden;
+            /*margin:10px;*/
+            padding:20px;
             /* border:1px solid #fff; */
 
 
@@ -71,47 +74,111 @@
             width:120%;
         }
         .section-two{
-            flex-direction: column;
+            
+            display:inline-block; 
+             width:100%;
+            /*border: 1px solid #fff;*/
       
 
         }
         .about-above{
-
-            width:100vw;
-            height:50vh;
-            display:flex;
+            
+            flex-direction: column;
+            width:90%;
+            height:100%;
+            margin:90px;
             justify-content:space-around; 
             align-items:center;
             flex-wrap: wrap;
+            /* border: 1px solid #fff; */
         }
         .above-left{
-
-            height:100%;
-            width:600px;
-            border: 1px solid #fff;
+            float: left;
+            width:60%;
+            height:auto;
             display:flex;
             justify-content:center;
-            align-items:center;
-            margin:10px;
-        }
-        .above-right{
-
-            height:100%;
-            width:400px;;
-            border: 1px solid #fff;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            margin:10px;
+            align-items:left;
+            flex-direction: column;
 
             
+            
+        }
+        .above-right{
+            width:40%;
+            height:auto;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            overflow:hidden;
+            
+          
+
+            
+
+            
+        }
+        .about-right-img{
+
+            width:300px;
+            height:auto;
         }
 
         .about-below{
 
-            width:100vw;
-            height:50vh;
+            flex-direction: column;
+            width:90%;
+            height:100%;
+            margin:90px;
+            justify-content:space-around; 
+            align-items:center;
+            flex-wrap: wrap;
+            /* border: 1px solid #fff; */
             
+        }
+        .below-left{
+
+            float: left;
+            width:40%;
+            height:auto;
+            display:flex;
+            justify-content:center;
+            align-items:left;
+            flex-direction: column;
+            
+
+        }
+        .below-right{
+
+            width:55%;
+            height:auto;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            overflow:hidden;
+            margin:20px;
+            
+        }
+
+        
+        h1{
+            font-size:50px;
+        }
+        
+        .about-text{
+            padding:0px;
+            margin:10px;
+            font-size:30px;
+        }
+
+        .about-text-2{
+            font-size:30px;
+            text-align: right;
+        }
+
+        .about-left-img{
+            width:500px;
+            height:260px;
         }
     </style>
 
@@ -124,8 +191,8 @@
         <!-- <h1 class="section-1-header">Section 1</h1> -->
         <div class="home-left">
            <div class="home-left-content">
-               <h2>welcome to blah blah blah ! </h2>
-               <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium nostrum quam officiis expedita beatae soluta necessitatibus aliquid delectus, perferendis alias, eos tenetur excepturi maiores, possimus earum. Perspiciatis, atque itaque!</h1>
+               <h1>Welcome <br> to <br> < The Developers' Club />  </h1>
+               
                <button class="primary-btn">
                    CTA
                </button> 
@@ -135,19 +202,41 @@
             <img src="./assets/home illustration.svg" class="home-right-image" alt=""> 
         </div>
       </section>
+
       <section class="section-two">
       
         <div class="about-above">
             <div class="above-left">
-                <h2>About left</h2>
+               <span class="about-text"><h1 class="about-que1">Who are we?</h1>
+                <p>Developer club is driven by Tech enthusiasts and open source contributors, we are optimistic and looking forward to
+                    conduct workshops and training led by speakers from other technical communities and Student expert.</p>
+                </span>
             </div>
-            <div class="above-right">
-                <h2>About right</h2>
+             <div class="above-right">
+                <img class="about-right-img"  src="./assets/Team work-amico 2.svg">
             </div>
-        </div>
-        <div class="about-below">
+        </div> 
 
-        </div>
+        <div class="about-below">
+            <div class="below-left">
+                <img class="about-left-img" src="./assets/about-illustration-2.svg">
+            </div>
+            <div class="below-right">
+                <span class="about-text-2">
+                  
+                     <h1 class="about-que">Why Developer's Club?</h1>
+                 
+                <p>“We are different just like you“ <br>
+                    Our community believe in providing peer-to-peer learning environment and creating an impact. We are all in for
+                    project centric learning, here is your chance to attend workshops, training and even host non-profit events to help
+                    others.
+                </p>
+                </span>
+            </div>
+            
+        </div> 
+
+        
       </section>
     </div>
 
