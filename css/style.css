@@ -242,7 +242,7 @@ svg {
           transform: scale(0.9);
   border-radius: 20px;
   position: relative;
-  margin: auto;
+  margin-left: auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -252,92 +252,66 @@ svg {
 }
 
 .home-section .arrow-right {
-  border-top-right-radius: 5%;
-  position: fixed;
-  top: 77%;
-  right: 0%;
+  border-top-right-radius: 9%;
+  position: relative;
+  top: 121%;
+  right: 51%;
   width: 100vh;
   height: 0px;
-  border-top: 70vh solid transparent;
+  border-top: 35vh solid transparent;
   border-bottom: 0px solid;
   border-right: 205vh solid #92C6FF;
 }
 
 .home-section .arrow-left {
-  border-top-left-radius: 5%;
+  border-top-left-radius: 9%;
   position: absolute;
-  top: 77%;
+  top: 119.5%;
   left: 0%;
   width: 100vh;
   height: 0px;
-  border-top: 70vh solid transparent;
+  border-top: 35vh solid transparent;
   border-bottom: 0px solid;
   border-left: 205vh solid #000;
 }
 
-.home-section .home-link {
+.home-section .link-section {
+  position: relative;
+  top: 112%;
+  left: 20%;
+  width: 50px;
+  height: 50px;
+}
+
+.home-section .link-section .home-link {
   font-family: 'IBM Plex Mono', monospace;
   position: absolute;
   top: 91%;
-  left: 25%;
+  left: 90%;
   font-weight: bold;
 }
 
-.home-section .about-link {
+.home-section .link-section .about-link {
   font-family: 'IBM Plex Mono', monospace;
   position: absolute;
-  top: 93%;
-  left: 25%;
+  top: 160%;
+  left: 90%;
   font-weight: bold;
 }
 
-.home-section .joining {
-  border-radius: 8%;
-  border: #000 solid;
-  position: absolute;
-  top: 93%;
-  left: 76%;
-}
-
-.home-section .community {
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: bold;
-  font-size: small;
-  color: black;
-  position: absolute;
-  left: 76%;
-  top: 91%;
-}
-
-.home-section button {
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: bolder;
-  width: 100px;
-  height: 25px;
-  color: white;
-  border-radius: 10%;
-  -webkit-box-shadow: #000;
-          box-shadow: #000;
-  position: absolute;
-  top: 92.8%;
-  left: 89.5%;
-  background-color: #F3AF0E;
-}
-
-.home-section #rob {
-  position: absolute;
-  top: 58%;
-  left: 77%;
-  width: 20%;
-  height: 50%;
-}
-
-.home-section .v-line {
+.home-section .link-section .v-line {
   border-left: 5px solid white;
   height: 90px;
   position: absolute;
   left: 22%;
-  top: 90%;
+  top: 60%;
+}
+
+.home-section #rob {
+  position: absolute;
+  bottom: -28%;
+  left: 70%;
+  width: 200px;
 }
 
 @media (max-width: 750px) {
@@ -358,7 +332,12 @@ svg {
     height: 30%;
     position: relative;
     top: 50%;
-    left: 30%;
+    left: 70%;
+  }
+  .home-section .link-section {
+    position: fixed;
+    top: 8%;
+    left: 10%;
   }
   .home-section .home-link {
     font-family: 'IBM Plex Mono', monospace;
@@ -372,25 +351,6 @@ svg {
     font-size: smaller;
     top: 59%;
     left: 10%;
-  }
-  .home-section .community {
-    font-family: 'IBM Plex Mono', monospace;
-    color: white;
-    position: absolute;
-    top: 35%;
-    left: 55%;
-  }
-  .home-section .joining {
-    position: absolute;
-    top: 55%;
-    left: 55%;
-  }
-  .home-section button {
-    position: absolute;
-    top: 55%;
-    width: 50px;
-    height: auto;
-    left: 83%;
   }
 }
 
