@@ -6,13 +6,18 @@
         width:100%;
 }
 }
+@media only screen and (max-width:760px) {
+    body{
+        background-image: radial-gradient(ellipse at right center, #197AE5 50%, black ); 
+    }
 
+}
 @media only screen and (max-width:760px) {
 .section-two{
     height:100%;
     width:100%;
     /*flex-wrap: wrap;*/
-    /*flex-flow: column wrap;*/
+    /*flex-flow: column wrap;*/ 
     flex-direction: column-reverse; 
 }
 }
@@ -101,6 +106,20 @@ p{
     text-align: center;
     font-size:39px; 
     width:100%;
+}
+@media screen and (min-width:600px) {
+	h1 {
+		font-size: 3em;
+	}
+	nav {
+		ul {
+			li {
+				a {
+					font-size: 3em;
+				}
+			}
+		}
+	}
 }
 
 }
