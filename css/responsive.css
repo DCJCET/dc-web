@@ -8,7 +8,9 @@
 }
 @media only screen and (max-width:760px) {
     body{
-        background-image: radial-gradient(ellipse at right center, #197AE5 50%, black ); 
+        /* background-image: radial-gradient(ellipse at right center, #197AE5 50%, black );  */
+        
+
     }
 
 }
@@ -19,6 +21,19 @@
     /*flex-wrap: wrap;*/
     /*flex-flow: column wrap;*/ 
     flex-direction: column-reverse; 
+    background: transparent;
+}
+.section-one{
+    
+}
+
+.container{ 
+    height:100%;
+    width:100%;
+    /*flex-wrap: wrap;*/
+    /*flex-flow: column wrap;*/ 
+    flex-direction: column-reverse; 
+    background: transparent;
 }
 }
 @media only screen and (max-width:760px) {
@@ -123,3 +138,83 @@ p{
 }
 
 }
+
+@media only screen and (max-width:760px) {
+
+    
+
+    .footer-illus{
+
+        display: none; 
+
+    }
+
+    .socials{
+        
+        margin-left: 10px;
+        margin-right: 40px;
+        
+        
+
+        
+    }
+
+    .quick-links{
+        margin-top: 25px;
+        margin: auto;
+        
+    }
+
+      
+
+}
+
+@media only screen and (max-width:760px) {
+
+    div .line{
+        margin-left: 2px;
+        margin-right: 2px;
+       
+    }
+
+}
+
+
+@media only screen and (max-width:760px) {
+
+    footer .footer{
+
+        height: 200px;
+        
+    }
+    
+    .quick-links ul{
+        margin-left: 10%;
+    }
+
+
+}
+
+@media only screen and (max-width:760px) {
+
+    .swiper-slide .text{
+
+       font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width:760px) {
+
+    .quick-links .QuickLinksHeading{
+
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+ 
+
